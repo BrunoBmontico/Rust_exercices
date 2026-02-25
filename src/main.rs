@@ -3,10 +3,10 @@
 // mod fatorial;
 // use fatorial::fatorial_recurcao;
 mod fibonacci;
-use fibonacci::first_numbers;
+use fibonacci::fibonacci;
 
 fn main() {
     // bizzbuzz();
     // fatorial_recurcao();
-    first_numbers();
+    fibonacci();
 }
