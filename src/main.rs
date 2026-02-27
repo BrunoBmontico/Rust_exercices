@@ -8,6 +8,8 @@
 // use even_odd::even_odd;
 // mod vogals_count;
 // use vogals_count::vogals;
+mod palindrome;
+use palindrome::palindrome;
 
 fn main() {
     // bizzbuzz();
@@ -15,4 +17,5 @@ fn main() {
     // fibonacci();
     // even_odd();
     // vogals();
+    palindrome();
 }
