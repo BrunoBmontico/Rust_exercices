@@ -6,10 +6,13 @@
 // use fibonacci::fibonacci;
 // mod even_odd;
 // use even_odd::even_odd;
+mod vogals_count;
+use vogals_count::vogals;
 
 fn main() {
     // bizzbuzz();
     // fatorial_recurcao();
     // fibonacci();
     // even_odd();
+    vogals();
 }
